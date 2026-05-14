@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-ps-dark text-white font-sans antialiased;
+  }
+}
+
+.masonry-grid {
+  @apply flex gap-4;
+}
+
+.masonry-column {
+  @apply flex flex-col gap-4;
+}
